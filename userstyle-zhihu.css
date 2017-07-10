@@ -18,6 +18,26 @@
         left: -50px;
         top: 8px;
     }
+
+    .Topstory-container {
+        width: 90%;
+    }
+    .Topstory-mainColumn {
+        width: 90%;
+    }
+    .TopstorySideBar {
+        width: 10%;
+        flex: none;
+        min-width: 200px;
+    }
+    .TopstoryMain {
+        width: 100%;
+        padding-top: 55px;
+        color: #34495e;
+        line-height: 2;
+        font-size: 20px;
+        font-family: Source Han Sans CN, Source Han Serif CN;
+    }
     /*WTF*/
 
     .zu-top {
@@ -242,3 +262,4 @@
         color: #fff;
     }
 }
+
