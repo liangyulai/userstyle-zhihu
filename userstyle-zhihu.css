@@ -4,7 +4,7 @@
         color: #34495e;
         line-height: 2;
         font-size: 14px;
-        font-family: Monaco, Menlo, Microsoft Yahei;
+        font-family: Source Han Serif CN, Monaco, Menlo, Microsoft Yahei;
     }
     body.zhi h2 {
         font-size: 18px;
@@ -18,12 +18,13 @@
         left: -50px;
         top: 8px;
     }
+    /*WTF*/
 
     .Topstory-container {
         width: 90%;
     }
     .Topstory-mainColumn {
-        width: 90%;
+        width: 88%;
     }
     .TopstorySideBar {
         width: 10%;
@@ -36,7 +37,64 @@
         color: #34495e;
         line-height: 2;
         font-size: 20px;
-        font-family: Source Han Sans CN, Source Han Serif CN;
+        font-family: Source Han Serif CN;
+    }
+    .QuestionHeader-title{
+        font-family: Source Han Sans CN;
+    }
+    .QuestionHeader-content {
+        width: 90%;
+        color: #34495e;
+        line-height: 2;
+        font-size: 20px;
+        font-family: Source Han Serif CN;
+    }
+    .QuestionRichText{
+        font-size: 20px;
+    }
+    .QuestionHeader-main {
+        width: 88%;
+    }
+    .QuestionHeader-side {
+        width: 10%;
+        flex: none;
+        min-width: 200px;
+    }
+    .Question-main {
+        width: 90%;
+        color: #34495e;
+        line-height: 2;
+        font-size: 20px;
+        font-family: Source Han Serif CN;
+    }
+    .Question-mainColumn {
+        width: 88%;
+    }
+    .Question-sideColumn {
+        width: 10%;
+        flex: none;
+        min-width: 200px;
+    }
+    .QuestionAnswers-answers {
+        width: 100%;
+        padding-top: 55px;
+        color: #34495e;
+        line-height: 2;
+        font-size: 20px;
+        font-family: Source Han Serif CN;
+    }
+    .comment-app-holder {
+        max-width: 100%;
+        color: #34495e;
+        line-height: 2;
+        font-size: 20px;
+        font-family: Source Han Serif CN;
+    }
+    .CommentItem {
+        color: #34495e;
+        line-height: 2;
+        font-size: 18px;
+        font-family: Source Han Serif CN;
     }
     /*WTF*/
 
@@ -139,9 +197,12 @@
         border-radius: 3px;
     }
     .zg-wrap {
-        width: 1100px;
+        width: 80%;
         margin: 0 auto;
         clear: both;
+        line-height: 2;
+        font-size: 20px;
+        font-family: Source Han Serif CN;
     }
     html.no-touch .zm-votebar .up:hover,
     .zm-votebar .up.pressed {
@@ -211,7 +272,6 @@
         background-image: none;
         border: none;
         background: #34495e;
-        padding: 1;
     }
     .zm-votebar.version-text .up.pressed {
         background: #34495e;
@@ -262,4 +322,3 @@
         color: #fff;
     }
 }
-
